@@ -6,78 +6,30 @@
     <title>test_1</title>
 </head>
 <body>
-<h1>Вход</h1>
 <form action="http://localhost:63342/testProject/src/index.html?_ijt=bpvooktas5d5slktg4kj060ebb" method="post">
-    <label for="login-field">Ваш логин  </label>
-    <input type="text" name="login" id="login-field">
+    <div class="main">
+    <h1>Вход</h1>
+    <div class="login">
+    <label for="login-field"> Ваш логин </label>
+    <input type="text" name="login" id="login-field" style="height: 25px;">
+    </div>
     <br>
     <br>
+    <div class="password">
     <label for="password-field">Ваш пароль</label>
-    <input type="password" name="password" id="password-field"
+    <input type="password" name="password" id="password-field" style="height: 25px;">
+    </div>
     <br>
     <br>
     <br>
-    <input type="submit" value="Вход">
-
-    <input type="button" value="Регистрация">
+    <input type="submit" value="Вход" style="width:145px; height:58px;">
+    <form>
+        <input type="button" value="Регистрация" style="width:145px; height:58px;" onClick='location.href="page2.html"'>
+    </form>
     <br>
-    <br>
-    <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+    <input type="checkbox" name="subscribe" id="subscribe-field">
     <label for="subscribe-field">сохранить пароль? </label>
-    <br>
-    <br>
-    <p>Ваш пол</p>
-    <label>
-        <input type="radio" name="question-one" value="p"> мужской
-    </label>
-    <br>
-    <label>
-        <input type="radio" name="question-one" value="b"> женский
-    </label>
-    <p>Ваш год рождения</p>
-    <select name="year">
-        <option value="1990">1990</option>
-        <option value="1991">1991</option>
-        <option value="1992">1992</option>
-        <option value="1993">1993</option>
-        <option value="1994">1994</option>
-        <option value="1995">1995</option>
-        <option value="1996">1996</option>
-        <option value="1997">1997</option>
-        <option value="1998">1998</option>
-        <option value="1999">1999</option>
-        <option value="2000">2000</option>
-        <option value="2001">2001</option>
-        <option value="2002">2002</option>
-        <option value="2003">2003</option>
-        <option value="2004">2004</option>
-    </select>
-    <br>
-    <br>
-    <p>Ваша електронная почта</p>
-    <input type="text">
-    <select name="mail">
-        <option value="@mail.ru">@mail.ru</option>
-        <option value="@gmail.com"> @gmail.com</option>
-        <option value="@yandex.ru">@yandex.ru</option>
-        <option value="@ukr.net">@ukr.net</option>
-    </select>
-    <p>Страна</p>
-    <input type="text">
-    <p>Город</p>
-    <input type="text">
-    <p>Номер телефона</p>
-    <input type="text">
-    <br>
-    <br>
-    <p><a href="http://gymradio.com">Тут вы сможете послушать музыку пока регистрируетесь</a></p>
-    <h3>На этом сайте можно посмотреть фильмы, сериалы: <a href="https://www.lostfilm.tv/">  нажмите сюда</a></h3>
-    <p><a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0"> Tут можно узнать очень много нового</a></p>
-
-
-
-
-
-
+    </div>
+</form>
 </body>
 </html>

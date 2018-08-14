@@ -1,3 +1,24 @@
 body{
-    background-color: #9fd195;
+    background-image: url(https://i.ytimg.com/vi/iqdRh9IpJ6I/maxresdefault.jpg);
+    color: black;
+}
+.main{
+    background: #75c9ff;
+
+    width: 30vw;
+    height: 100vh;
+    float:right;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 30px;
+}
+.password,
+.login
+{
+    width: 30vw;
+    height: 5vh;
+    background: coral;
+    padding-top: 5px;
+    font-size: 30px;
+    border-style: solid;
 }
