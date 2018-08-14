@@ -1,24 +1,37 @@
-body{
+body {
     background-image: url(https://i.ytimg.com/vi/iqdRh9IpJ6I/maxresdefault.jpg);
     color: black;
 }
-.main{
-    background: #75c9ff;
+.main {
+    background: white;
 
     width: 30vw;
     height: 100vh;
-    float:right;
+    float: right;
     text-align: center;
     padding-top: 250px;
     font-size: 30px;
 }
 .password,
-.login
-{
+.login {
     width: 30vw;
     height: 5vh;
-    background: coral;
+    background: #ffa850;
     padding-top: 5px;
     font-size: 30px;
-    border-style: solid;
+    border: solid;
+    text-decoration: underline;
 }
+
+.sing_up > input {
+    width: 145px;
+    height: 58px;
+    font-size: 20px;
+}
+
+.submit > input {
+    width: 145px;
+    height: 58px;
+    font-size: 20px;
+}
+
