@@ -6,34 +6,26 @@
     <title>test_1</title>
 </head>
 <body>
-<form action="http://localhost:63342/testProject/src/index.html?_ijt=bpvooktas5d5slktg4kj060ebb" method="post">
-    <div class="main">
-    <h1>Вход</h1>
+<div class="main">
+    <div class="username">
+        <input type="text" name="login" placeholder="USERNAME" id="email">
+        <input type="password" name="password" placeholder="PASSWORD" id="password">
+    </div>
+    <div class="forgot_Password">
+        <p><a href="page3.html">Forgot Password?</a></p>
+    </div>
+    <br>
     <div class="login">
-    <label for="login-field"> Ваш логин </label>
-    <input type="text" name="login" id="login-field" style="height: 25px;">
-    </div>
-    <br>
-    <div class="password">
-    <label for="password-field">Ваш пароль</label>
-    <input type="password" name="password" id="password-field" style="height: 25px;">
-    </div>
-    <br>
-    <div class="submit">
-        <input type="submit" value="Вход" style="color: red;">
+        <input type="submit" value="LOGIN" onclick="handleLogin()">
     </div>
     <br>
     <br>
     <br>
     <div class="sing_up">
-        <form>
-        <input type="button" value="Регистрация"  onClick='location.href="page2.html"'>
-        </form>
+        <input type="button" value="SING UP" onClick='location.href="page2.html"'>
     </div>
     <br>
-    <!--<input type="checkbox" name="subscribe" id="subscribe-field">-->
-    <!--<label for="subscribe-field">сохранить пароль? </label>-->
-    </div>
-</form>
+</div>
+<script src="index.js"></script>
 </body>
 </html>

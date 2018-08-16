@@ -1,37 +1,107 @@
 body {
+    text-align: center;
+    font-size: 25px;
+    color: white;
     background-image: url(https://i.ytimg.com/vi/iqdRh9IpJ6I/maxresdefault.jpg);
-    color: black;
 }
-.main {
-    background: white;
 
-    width: 30vw;
-    height: 100vh;
+.main {
+    position: relative;
+    background: white;
+    width: 350px;
+    height: 450px;
     float: right;
     text-align: center;
     padding-top: 250px;
     font-size: 30px;
-}
-.password,
-.login {
-    width: 30vw;
-    height: 5vh;
-    background: #ffa850;
-    padding-top: 5px;
-    font-size: 30px;
-    border: solid;
-    text-decoration: underline;
+    right: 30px;
+    top: 40px;
+    box-shadow: 0 0 5px rgb(0 0 0.5);
 }
 
 .sing_up > input {
     width: 145px;
-    height: 58px;
+    height: 38px;
     font-size: 20px;
+    background: white;
+    color: #000;
+    cursor: pointer;
+    border: 2px solid red;
 }
 
-.submit > input {
+.login > input {
     width: 145px;
-    height: 58px;
+    height: 48px;
     font-size: 20px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgb(0, 0, 0.5);
+    border: none;
 }
+.forgot_Password {
+    color: #000;
+    text-align: right;
+    font-size: 15px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+a {
+    text-decoration: none;
+}
+.username > input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    height: 25px;
+}
+.username > input:focus{
+    outline: none;
+}
+.registration > input {
+    cursor: pointer;
+    width: 145px;
+    height: 38px;
+    font-size: 20px;
+    background: white;
+    color: #000;
+}
+
+.singup1 > input{
+
+    width: 145px;
+    height: 38px;
+    font-size: 20px;
+    background: white;
+    color: #000;
+    cursor: pointer;
+    border: 2px solid red;
+}
+.main2{
+    position: fixed;
+    background: white;
+    width: 350px;
+    height: 450px;
+    float: right;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 30px;
+    right: 30px;
+    top: 40px;
+    box-shadow: 0 0 5px rgb(0 0 0.5);
+}
+.registration\.1 > input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    height: 25px;
+}
+.registration\.1 >input:focus{
+    outline: none;
+
+}
+
 
