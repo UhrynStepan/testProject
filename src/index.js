@@ -13,23 +13,41 @@ function handleLogin() {
     }
 }
 
-function logine() {
-    var name = document.getElementById('name').value;
-    var surname = document.getElementById('surname').value;
-    var email = document.getElementById('email').value;
-    var country = document.getElementById('country').value;
-    var city = document.getElementById('city').value;
-    var phone = document.getElementById('phone').value;
-    var date = document.getElementById('date').value;
 
-    console.log('name: ', name);
-    console.log('surname: ', surname);
-    console.log('email: ', email);
-    console.log('country: ', country);
-    console.log('city: ', city);
-    console.log('phone: ', phone);
-    console.log('date: ', date);
-}
-function onFocus () {
+function onFocus() {
     document.getElementById("username").classList.remove('myClass');
+}
+
+function singup1() {
+    var name = document.getElementById('name');
+    var surname = document.getElementById('surname');
+    var email = document.getElementById('email');
+    var country = document.getElementById('country');
+    var city = document.getElementById('city');
+    var phone = document.getElementById('phone');
+    var date = document.getElementById('date');
+    if (name.value === "") {
+        alert("enter your name");
+    }
+    else if (surname.value === "") {
+        alert("enter your surname");
+    }
+    else if (email.value === "") {
+        alert("enter your email");
+    }
+    else if (country.value === "") {
+        alert("enter your country");
+    }
+    else if (city.value === "") {
+        alert("enter your city");
+    }
+    else if (phone.value === "") {
+        alert("enter your phone");
+    }
+    else if (date.value === "") {
+        alert("enter your date");
+    }
+    else {
+        window.location.href = "page3.html";
+    }
 }
