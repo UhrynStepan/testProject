@@ -1,9 +1,16 @@
+var defaultCredentials = {
+    email: 'admin@admin.com',
+    password: 'admin'
+};
+
 function handleLogin() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
-
-    console.log('email: ', email);
-    console.log('password: ', password);
+    if (email === defaultCredentials.email && password === defaultCredentials.password) {
+        window.location.href = "page3.html";
+    } else {
+        document.getElementById("username").classList.add('myClass');
+    }
 }
 
 function logine() {
@@ -17,10 +24,12 @@ function logine() {
 
     console.log('name: ', name);
     console.log('surname: ', surname);
-    console.log('email: ', console);
     console.log('email: ', email);
     console.log('country: ', country);
     console.log('city: ', city);
     console.log('phone: ', phone);
     console.log('date: ', date);
+}
+function onFocus () {
+    document.getElementById("username").classList.remove('myClass');
 }
