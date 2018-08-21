@@ -13,7 +13,6 @@ function handleLogin() {
     }
 }
 
-
 function onFocus() {
     document.getElementById("username").classList.remove('myClass');
 }
