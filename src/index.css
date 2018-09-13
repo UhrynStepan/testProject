@@ -1,3 +1,4 @@
+html,
 body {
     text-align: center;
     font-size: 40px;
@@ -7,6 +8,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
 .main {
     position: relative;
     background: white;
@@ -41,6 +43,7 @@ body {
     box-shadow: 0 5px 20px rgb(0, 0, 0.5);
     border: none;
 }
+
 .forgot_Password {
     color: #000;
     text-align: right;
@@ -49,9 +52,11 @@ body {
     right: 10px;
     top: 10px;
 }
+
 a {
     text-decoration: none;
 }
+
 .username > input {
     border-top: none;
     border-left: none;
@@ -59,9 +64,11 @@ a {
     width: 300px;
     height: 25px;
 }
-.username > input:focus{
+
+.username > input:focus {
     outline: none;
 }
+
 .registration > input {
     cursor: pointer;
     width: 145px;
@@ -71,7 +78,7 @@ a {
     color: #000;
 }
 
-.singup1 > input{
+.singup1 > input {
 
     width: 145px;
     height: 38px;
@@ -81,7 +88,8 @@ a {
     cursor: pointer;
     border: 2px solid red;
 }
-.main2{
+
+.main2 {
     position: fixed;
     background: white;
     width: 350px;
@@ -94,17 +102,19 @@ a {
     top: 40px;
     box-shadow: 0 0 5px rgb(0 0 0.5);
 }
-.registration1 > input{
+
+.registration1 > input {
     border-top: none;
     border-left: none;
     border-right: none;
     width: 300px;
     height: 25px;
 }
-.registration1 >input:focus{
-    outline: none;
 
+.registration1 > input:focus {
+    outline: none;
 }
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button,
 input[type=date]::-webkit-inner-spin-button,
@@ -113,6 +123,86 @@ input[type=date]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-.myClass > input{
+.myClass > input {
     border-color: red;
 }
+
+
+<!--page3 -->
+
+.vertical-menu a {
+    color: black;
+    display: block;
+    max-width: 200px;
+}
+
+.vertical-menu a:hover {
+    background-color: #005cbf;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-menu a {
+    display: inline-block;
+    position: relative;
+    color: black;
+
+}
+
+.horizontal-menu a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.horizontalMenu {
+    background-color: #005cbf;
+}
+
+.horizontalMenu a {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    padding: 0 10px;
+    color: white;
+}
+
+.horizontalMenu :hover {
+    color: white;
+    text-decoration: none;
+}
+
+.submenu a {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.submenu a {
+    color: #000;
+}
+
+.submenu a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #005cbf;
+
+}
+
+.mainText {
+    background-color: #17a2b8;
+    height: 400px;
+}
+
+.footer {
+    height: 30px;
+    color: white;
+    text-align: center;
+    background-color: grey;
+}
+
+.input {
+    margin: 10px 0 10px 10px;
+    height: 16px;
+    font-size: 15px;
+}
+
